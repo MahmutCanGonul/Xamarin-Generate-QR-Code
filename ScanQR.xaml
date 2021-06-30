@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.ScanQR"
+             xmlns:Zxing="clr-namespace:ZXing.Net.Mobile.Forms;assembly=ZXing.Net.Mobile.Forms">
+    <ContentPage.Content>
+        <StackLayout>
+            <Image x:Name="tick_image" Source="" WidthRequest="100" HeightRequest="100"/>
+            <Zxing:ZXingScannerView x:Name="scan_QR" IsScanning="True" OnScanResult="scan_QR_OnScanResult"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
