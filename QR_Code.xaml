@@ -6,7 +6,7 @@
     <ContentPage.Content>
         <StackLayout>
             <Label x:Name="cipher" Text="Şifre: " TextColor="Black" FontSize="20"/>
-            <Zxing:ZXingBarcodeImageView x:Name="your_QR" WidthRequest="500" HeightRequest="500"/>
+            <Zxing:ZXingBarcodeImageView x:Name="your_QR" WidthRequest="500" HeightRequest="500"/> // This part generate the QR Code
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
