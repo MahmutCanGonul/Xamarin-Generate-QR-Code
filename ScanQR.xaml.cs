@@ -28,7 +28,7 @@ namespace App1
 
         }
 
-        private void scan_QR_OnScanResult(ZXing.Result result)
+        private void scan_QR_OnScanResult(ZXing.Result result) // Imported part this ZXing.Result result because QR Code data is result so you need to use result on this code 
         {
             Device.BeginInvokeOnMainThread(() =>
             {
