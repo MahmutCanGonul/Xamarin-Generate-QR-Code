@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="App1.QR_Code"
-             xmlns:Zxing="clr-namespace:ZXing.Net.Mobile.Forms;assembly=ZXing.Net.Mobile.Forms">
+             xmlns:Zxing="clr-namespace:ZXing.Net.Mobile.Forms;assembly=ZXing.Net.Mobile.Forms"> // You need to add this part in your contentPage [xmlns:Zxing="clr-namespace:ZXing.Net.Mobile.Forms;assembly=ZXing.Net.Mobile.Forms"]
     <ContentPage.Content>
         <StackLayout>
             <Label x:Name="cipher" Text="Şifre: " TextColor="Black" FontSize="20"/>
