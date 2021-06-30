@@ -6,7 +6,7 @@
     <ContentPage.Content>
         <StackLayout>
             <Label x:Name="cipher" Text="Şifre: " TextColor="Black" FontSize="20"/>
-            <Zxing:ZXingBarcodeImageView x:Name="your_QR" WidthRequest="500" HeightRequest="500"/> // This part generate the QR Code
+            <Zxing:ZXingBarcodeImageView x:Name="your_QR" WidthRequest="500" HeightRequest="500"/> // This part generate the QR Code x:Name= your_QR is my word but you can change that name whatever you want. We can use name for script.
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
