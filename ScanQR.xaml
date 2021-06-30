@@ -6,7 +6,7 @@
     <ContentPage.Content>
         <StackLayout>
             <Image x:Name="tick_image" Source="" WidthRequest="100" HeightRequest="100"/>
-            <Zxing:ZXingScannerView x:Name="scan_QR" IsScanning="True" OnScanResult="scan_QR_OnScanResult"/>
+            <Zxing:ZXingScannerView x:Name="scan_QR" IsScanning="True" OnScanResult="scan_QR_OnScanResult"/> // I give that agein name on this object for using the script
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
