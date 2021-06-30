@@ -16,7 +16,7 @@ namespace App1
         public QR_Code()
         {
             InitializeComponent();
-            your_QR.BarcodeValue = QR_CODE.result;
+            your_QR.BarcodeValue = QR_CODE.result; // Now we can use that our QR Code name  QR_CODE.result is my object so you just write  your_QR.BarcodeValue = "string"
 
         }
     }
