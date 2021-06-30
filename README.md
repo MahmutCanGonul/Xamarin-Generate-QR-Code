@@ -3,4 +3,6 @@ Firstly you need to download Zxing package on Xamarin. How you can download Zxin
 
 Don't forget download package on Android!!! 
 
+![alt text](https://www.kaspersky.com.tr/content/tr-tr/images/repository/isc/2020/9910/a-guide-to-qr-codes-and-how-to-scan-qr-codes-2.png)
+
 
