@@ -63,7 +63,7 @@ namespace App1
                     FriendQR.cipher = result.Text;
                     tick_image.IsVisible = true;
                     tick_image.Source = "tick.png";
-                    Navigation.PushModalAsync(new UseYourFriendCipher());
+                    Navigation.PushModalAsync(new UseYourFriendCipher()); // with this part I push new page
                 }
                 else if (result.Text.Length == 81)
                 {
@@ -94,7 +94,7 @@ namespace App1
                     FriendQR.cipher = result.Text;
                     tick_image.IsVisible = true;
                     tick_image.Source = "tick.png";
-                    Navigation.PushModalAsync(new UseYourFriendCipher());
+                    Navigation.PushModalAsync(new UseYourFriendCipher()); // with this part I push new page
                 }
                 else // Scan QR False Part
                 {
